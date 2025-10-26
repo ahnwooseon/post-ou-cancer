@@ -293,7 +293,6 @@
   - Redis container fixture
   - RabbitMQ container fixture
   - Base class for integration tests
-  -
   - Test examples with containers
   - Parallel execution configuration
   - Test pattern documentation
