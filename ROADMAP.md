@@ -3,92 +3,101 @@
 ## Conventions
 
 **Universe**: Each space (public feed, forum, micro-world) has its own rules, identity, and moderation.
+
 **Identity**: Users can choose real name (optional), pseudonym per community, or ephemeral anonymous identity for micro-worlds.
+
 **Thread**: Can migrate between universes (public → micro-world), with user-selected anonymity and visibility.
+
 **Moderation**: Granular, adapted to each universe (community-driven, automated, or strict).
+
 **PI (Program Increment)**: Major delivery cycle with business value
+
 **Sprint**: 2-week development cycle within a PI
 **Milestone**: Major deliverable with specific due date and success criteria
+
 **Task**: Action with story points (SP): 1 (simple), 2 (medium), 3 (standard), 5 (complex), 8 (advanced)
+
 **Success**: xUnit tests >80% coverage with Shouldly/Moq
+
 **Dependencies**: Prerequisites
+
 **Risks**: Mitigations included
 
 ---
 
-## PI-1: Foundation & Infrastructure
+## PI-1: Foundation & Trust Architecture 🔒
 
-**Duration**: 8 weeks (Oct 25, 2025 → Dec 19, 2026)  
-**Goal**: Establish solid technical foundation with authentication and basic functionality
+**Duration**: 8 Weeks (Nov 15, 2025 – Jan 9, 2026)
+**Goal**: Establish solid technical foundation with authentication and **privacy-first core**.
 
-### Sprint 1.1 (Oct 25 - Nov 7, 2025)
+### Sprint 1.1 (Nov 15 - Nov 28, 2025)
 
 - Milestone 0: Architecture Blueprint
 - Milestone 1: Local Dev Environment Ready
 
-### Sprint 1.2 (Nov 8 - Nov 21, 2025)
+### Sprint 1.2 (Nov 29 - Dec 12, 2025)
 
 - Milestone 2: Automated Testing Pipeline
 
-### Sprint 1.3 (Nov 22 - Dec 5, 2025)
+### Sprint 1.3 (Dec 13 - Dec 26, 2025)
 
 - Milestone 3: Auth System Functional
 
-### Sprint 1.4 (Dec 6-19, 2025)
+### Sprint 1.4 (Dec 27, 2025 - Jan 9, 2026)
 
 - Milestone 4: Login Flow Complete
 
 ---
 
-## PI-2: Core Social Features
+## PI-2: Core Social Features & Governance 🏛️
 
-**Duration**: 8 weeks (Dec 20, 2025 → Mar 27, 2026)  
-**Goal**: Build core forum functionality (posts, communities, voting, discussions, moderation)
+**Duration**: 10 Weeks (Jan 10, 2026 – Mar 20, 2026)
+**Goal**: Build core functionality (posts, communities, voting, discussions, moderation) **and modular governance tools**.
 
-### Sprint 2.1 (Dec 20, 2025 - Jan 2, 2026)
+### Sprint 2.1 (Jan 10 - Jan 23, 2026)
 
 - Milestone ALPHA: Posts MVP + Performance Baseline 🚀
 
-### Sprint 2.2 (Jan 3-16, 2026)
+### Sprint 2.2 (Jan 24 - Feb 6, 2026)
 
 - Milestone 5: Multi-Community Support
 
-### Sprint 2.3 (Jan 17-30, 2026)
+### Sprint 2.3 (Feb 7 - Feb 20, 2026)
 
 - Milestone 6: Voting + Score Aggregation
 
-### Sprint 2.4 (Jan 31 - Feb 13, 2026)
+### Sprint 2.4 (Feb 21 - Mar 6, 2026)
 
 - Milestone 7: Nested Discussion Trees
 
-### Sprint 2.5 (Feb 14-27, 2026)
+### Sprint 2.5 (Mar 7 - Mar 20, 2026)
 
 - Milestone 8: Report System + Audit Trail
 
 ---
 
-## PI-3: Intelligence & Premium
+## PI-3: Intelligence & Modularity 🧠
 
-**Duration**: 8 weeks (Mar 28 → May 22, 2026)  
-**Goal**: Add AI moderation, gamification, notifications, and premium features
+**Duration**: 10 Weeks (Mar 21, 2026 – May 29, 2026)
+**Goal**: Add AI moderation, **contextual reputation**, notifications, and premium features
 
-### Sprint 3.1 (Feb 28 - Mar 13, 2026)
+### Sprint 3.1 (Mar 21 - Apr 3, 2026)
 
 - Milestone BETA: Full-Text Search Live 🚀
 
-### Sprint 3.2 (Mar 14-27, 2026)
+### Sprint 3.2 (Apr 4 - Apr 17, 2026)
 
 - Milestone 9: Moderation Tools
 
-### Sprint 3.3 (Mar 28 - Apr 10, 2026)
+### Sprint 3.3 (Apr 18 - May 1, 2026)
 
 - Milestone 10: Consistent Brand Across UIs
 
-### Sprint 3.4 (Apr 11-24, 2026)
+### Sprint 3.4 (May 2 - May 15, 2026)
 
 - Milestone 11: Automated Content Moderation
 
-### Sprint 3.5 (Apr 25 - May 8, 2026)
+### Sprint 3.5 (May 16 - May 29, 2026)
 
 - Milestone 12: Karma & Progression Visible
 
@@ -96,38 +105,38 @@
 
 ## PI-4: Production & Compliance
 
-**Duration**: 14 weeks (Jun 5 → Sep 11, 2026)  
+**Duration**: 16 Weeks (May 30, 2026 – Sep 18, 2026)
 **Goal**: Scale to production, ensure compliance, and launch monetization
 
-### Sprint 4.1 (May 9-22, 2026)
+### Sprint 4.1 (May 30 - Jun 12, 2026)
 
 - Milestone 13: User Alerts System
 
-### Sprint 4.2 (May 23, Jun 5, 2026)
+### Sprint 4.2 (Jun 13 - Jun 26, 2026)
 
 - Milestone 14: Premium Features Ready
 
-### Sprint 4.3 (Jun 6-19, 2026)
+### Sprint 4.3 (Jun 27 - Jul 10, 2026)
 
 - Milestone V1.0: Full System Visibility 🚀
 
-### Sprint 4.4 (Jun 20 - Jul 3, 2026)
+### Sprint 4.4 (Jul 11 - Jul 24, 2026)
 
 - Milestone 15: Production-Ready Deployment
 
-### Sprint 4.5 (Jul 4-17, 2026)
+### Sprint 4.5 (Jul 25 - Aug 7, 2026)
 
 - Milestone 16: Data Privacy Complete (GDPR)
 
-### Sprint 4.6 (Jul 18-31, 2026)
+### Sprint 4.6 (Aug 8 - Aug 21, 2026)
 
 - Milestone 17: Monetization Live
 
-### Sprint 4.7 (Aug 1-14, 2026)
+### Sprint 4.7 (Aug 22 - Sep 4, 2026)
 
 - Milestone 18: Security Audit Complete
 
-### Sprint 4.8 (Aug 15-28, 2026)
+### Sprint 4.8 (Sep 5 - Sep 18, 2026)
 
 - Milestone PRODUCTION: Ready for Production 🚀
 
@@ -135,7 +144,7 @@
 
 ## MILESTONE 0: Architecture Blueprint
 
-**Due Date**: 2025-10-31
+**Due Date**: 2025-11-21
 
 ### 📦 Deliverables
 
@@ -149,10 +158,10 @@
 - **Task 0.1: Architecture Decision Records** (8 SP)
 
   - Create `/docs/adr/` folder structure
-  - ADR-001: .NET 10 Preview choice and justification
+  - ADR-001: .NET 10 choice and justification
   - ADR-002: Modular monolith vs microservices architecture
   - ADR-003: Aspire for orchestration and observability
-  - ADR-004: PostgreSQL 18 as primary database
+  - ADR-004: PostgreSQL as primary database
   - ADR-005: Elasticsearch vs PostgreSQL FTS for search
   - ADR-006: Blazor WASM + MudBlazor for public UI
   - ADR-007: Angular + Material for admin interface
@@ -180,7 +189,7 @@
 
 ## MILESTONE 1: Local Dev Environment Ready
 
-**Due Date**: 2025-11-07
+**Due Date**: 2025-11-28
 
 ### 📦 Deliverables
 
@@ -238,7 +247,7 @@
 
 - **Task 1.5: Docker Compose Environment** (6 SP)
   - Create `docker-compose.yml` with all services
-  - PostgreSQL 18 with persistent volumes
+  - PostgreSQL with persistent volumes
   - Redis 8 for caching and rate-limiting
   - RabbitMQ 3 for messaging
   - Python FastAPI worker for AI
@@ -264,7 +273,7 @@
 
 ## MILESTONE 2: Automated Testing Pipeline
 
-**Due Date**: 2025-11-21
+**Due Date**: 2025-12-12
 
 ### 📦 Deliverables
 
@@ -335,7 +344,7 @@
 
 ## MILESTONE 3: Auth System Functional
 
-**Due Date**: 2025-12-05
+**Due Date**: 2025-12-26
 
 ### 📦 Deliverables
 
@@ -343,16 +352,15 @@
 - JWT validation middleware
 - Redis rate-limiting
 - YARP API Gateway
+- **Opt-in identity verification with a "certified" badge.**
 - **Selective end-to-end encryption for DMs, private circles, and drafts (Zero Knowledge Graph)**
-- **Local-first storage for user data, with optional encrypted cloud sync**
 
 ### Tasks
 
-- **Task 3.1: Keycloak + Discord OAuth & Selective Encryption** (22 SP)
+- **Task 3.1: Keycloak + Discord OAuth & Selective Encryption** (28 SP)
 - Deploy Keycloak in Docker Compose
-- Implement client-side encryption for DMs, private circles, and drafts
+- **Implement selective end-to-end encryption for DMs, private circles, and drafts**
 - Ensure public content remains readable and transparent
-- Local-first storage logic (offline-first, explicit cloud sync)
 - Create realm `postoucancer`
 - Configure OAuth client (confidential)
 - Add Discord as Identity Provider
@@ -385,10 +393,20 @@
   - Routing tests
   - Gateway architecture documentation
 
+- **Task 3.4: Real Name Identity Verification (Yoti)** (15 SP)
+  - Research and select an identity verification provider (e.g., Yoti, Veriff).
+  - Implement backend API to handle verification webhooks from the provider.
+  - Add `IsVerified` boolean flag to the `User` entity in the Identity module.
+  - Create a `CertifiedBadge.razor` component to display on user profiles if `IsVerified` is true.
+  - Develop a simple UI flow for users to initiate the verification process.
+  - End-to-end tests for the verification flow.
+
 ### ✅ Success Criteria
 
 - Discord login functional
 - Valid JWT issued by Keycloak
+- **Zero Knowledge encryption operational for private content**
+- **Users can complete the identity verification flow and receive a "certified" badge.**
 - Refresh token flow operational
 - Rate-limiting active on all endpoints
 - Configurable limits per environment
@@ -397,19 +415,20 @@
 - Health checks functional
 - Structured request logs
 
-**⏱️ Estimated effort**: 22h (AI 14h + integration 8h)
+**⏱️ Estimated effort**: 30h (AI 19h + integration 11h)
 
 ---
 
 ## MILESTONE 4: Login Flow Complete
 
-**Due Date**: 2025-12-19
+**Due Date**: 2026-01-09
 
 ### 📦 Deliverables
 
 - Blazor WASM Discord login UI (MudBlazor)
 - Session management (JWT refresh + auto-renewal)
 - Global exception handler
+- **Functional persistence layer for local-first storage.**
 
 ### Tasks
 
@@ -424,6 +443,7 @@
   - Responsive tests (320px, 768px, 1024px)
   - End-to-end tests with bUnit
   - Component documentation
+  - **Persistence layer for local-first storage logic (offline-first, explicit cloud sync)**
 
 - **Task 4.2: Session Management** (15 SP)
 
@@ -467,16 +487,14 @@
 
 ## MILESTONE ALPHA: Posts MVP + Performance Baseline
 
-**Due Date**: 2026-01-02
+**Due Date**: 2026-01-23
 
 ### 📦 Deliverables
 
-- **Replay Social: ability to revisit feed as it was at a past date (feed historization)**
-- Implement feed historization and replay feature
-- CreatePostCommand (CQRS + FluentValidation)
-- MassTransit projections
-- Posts Feed UI (pagination + SCSS)
-- k6 baseline tests (10 users)
+- A functional Posts MVP built with a CQRS architecture.
+- A denormalized read model for posts, populated by asynchronous events.
+- A responsive Blazor UI for creating and viewing posts.
+- Baseline performance metrics established with k6 load tests.
 
 ### Tasks
 
@@ -555,13 +573,14 @@
 
 ## MILESTONE 5: Multi-Community Support
 
-**Due Date**: 2026-01-16
+**Due Date**: 2026-02-06
 
 ### 📦 Deliverables
 
+- A community management module with a CQRS-based API.
+- A Blazor UI for community administration, including Universe type selection.
+- Role-based access control (Admin, Mod, User) integrated with Keycloak.
 - CreateCommunity API (CQRS + R2 storage)
-- Community Management UI (MudBlazor)
-- Keycloak roles (Admin/Mod/User/Premium)
 
 ### Tasks
 
@@ -612,17 +631,15 @@
 
 ---
 
-## MILESTONE 6: Voting + Score Aggregation
+## MILESTONE 6: Reactions & Voting System
 
-**Due Date**: 2026-01-30
+**Due Date**: 2026-02-20
 
 ### 📦 Deliverables
 
-- **Attention Limiting: daily cap on likes/reactions to encourage thoughtful engagement**
-- Implement logic to limit number of likes/reactions per user per day
-- CastVoteCommand (CQRS + validation)
-- Vote Counter UI (MudChip + Redis cache)
-- Vote Aggregation Worker (background service)
+- **A flexible reaction system (likes, laughs, etc.) that respects Universe-level metric settings.**
+- An "Attention Limiting" feature capping the total number of reactions a user can give per day.
+- A responsive UI component that displays the total reaction count and shows a detailed breakdown on hover.
 
 ### Tasks
 
@@ -630,39 +647,40 @@
 
   - `Vote` entity (Domain)
   - `CastVoteCommand` (Up/Down/Remove)
-  - Validation: 1 vote/user/post
+  - Validation: 1 reaction/user/post
   - Permission verification (banned users)
   - `VoteCast` event to RabbitMQ
   - `/api/votes` endpoint
   - Idempotence tests
   - Documentation
 
-- **Task 6.2: Vote Counter UI + Redis Cache** (16 SP)
+- **Task 6.2: Reaction UI Component** (16 SP)
 
-  - `VoteButtons.razor` component (MudChip)
+  - `Reactions.razor` component.
   - Optimistic update (immediate UI)
-  - Redis cache for scores (TTL 5 min)
-  - Refresh if backend fails
-  - Vote animations
-  - bUnit tests
+  - Displays total reaction count.
+  - On hover, a `MudMenu` or `MudTooltip` shows the breakdown of each reaction type and its count (e.g., "😂: 12, 👍: 5").
+  - Redis caching for reaction counts to reduce database load.
+  - bUnit tests for UI logic and display.
 
-- **Task 6.3: Vote Aggregation Worker** (13 SP)
-  - MassTransit consumer for `VoteCast`
-  - Recalculate post score (upvotes - downvotes)
-  - Invalidate Redis cache
-  - Concurrency handling (locks)
-  - Consumer tests
-  - OTEL monitoring
+- **Task 6.3: Reaction Aggregation Worker** (13 SP)
+  - MassTransit consumer for `ReactionCast` event.
+  - Recalculates post scores based on the configured value of each reaction type.
+  - Invalidates the relevant Redis cache keys.
+  - Handles concurrency to prevent race conditions.
+  - Consumer integration tests.
+  - OpenTelemetry monitoring for queue depth and processing time.
 
 ### ✅ Success Criteria
 
-- Unique vote per user/post
+- Unique reaction per user/post is enforced.
 - Event published correctly
 - Tests > 80%
-- Instant vote in UI
+- UI updates optimistically and displays the total count.
+- Hovering over the count displays a correct breakdown of reaction types.
 - Fallback if error
 - Efficient caching
-- Scores recalculated correctly
+- Reaction scores are recalculated correctly by the background worker.
 - Cache invalidated
 - Tests validate aggregation
 
@@ -672,16 +690,13 @@
 
 ## MILESTONE 7: Nested Discussion Trees
 
-**Due Date**: 2026-02-13
+**Due Date**: 2026-03-06
 
 ### 📦 Deliverables
 
-- **Multilingual Threads: automatic translation and semantic coherence across languages**
-- Implement thread translation and synchronization logic
-- CreateThread endpoint (HEAD caching + GZIP)
-- Threads UI (MudExpansionPanel + Redis drafts + PWA)
-- AddComment endpoint (nested validation)
-- Comments UI (inline replies + indentation)
+- A complete system for creating and viewing nested discussion threads.
+- A recursive comment creation API with depth validation.
+- A responsive Blazor UI for displaying threaded conversations with draft auto-saving.
 
 ### Tasks
 
@@ -720,6 +735,22 @@
   - "Load more" button if too many replies
   - Performance tests (1000 comments)
 
+- **Task 7.5: GIF Integration (Giphy)** (12 SP)
+  - Integrate the Giphy SDK/API into the Blazor comment/post editor.
+  - Create a `GifPicker.razor` component that opens in a MudDialog.
+  - Implement a one-time privacy consent dialog before the first use, explaining that search data is sent to Giphy.
+  - Add a button to the editor toolbar to open the GIF picker.
+  - Write bUnit tests for the picker component and the privacy consent flow.
+  - Document the API key configuration in the secrets management strategy.
+
+- **Task 7.6: Native Sharing Integration** (8 SP)
+  - Create a `ShareService` in Blazor to abstract the Web Share API.
+  - Implement a fallback to "copy to clipboard" for browsers that do not support the Web Share API.
+  - Add a "Share" button with an icon to the `PostCard.razor` and `Comment.razor` components.
+  - The button should call the `ShareService` with the post/comment's canonical URL.
+  - Write bUnit tests to verify the correct API is called or the fallback is triggered.
+  - Document the feature and its browser compatibility.
+
 ### ✅ Success Criteria
 
 - Thread created with validation
@@ -729,20 +760,22 @@
 - Nesting up to 5 levels
 - No circularity
 - Tree displayed correctly
+- Users can search for and insert GIFs from Giphy after accepting a privacy notice.
+- Users can share content using their device's native share sheet.
 - Acceptable performance
 
-**⏱️ Estimated effort**: 26h (AI 14h + integration 12h)
+**⏱️ Estimated effort**: 34h (AI 18h + integration 16h)
 
 ---
 
 ## MILESTONE 8: Report System + Audit Trail
 
-**Due Date**: 2026-02-27
+**Due Date**: 2026-03-20
 
 ### 📦 Deliverables
 
-- ReportPost endpoint (CQRS + hCaptcha + rate limits)
-- Moderation Queue (RabbitMQ events)
+- A user content reporting system with hCaptcha and rate-limiting.
+- An asynchronous moderation queue that aggregates reports.
 - Moderation Audit Trail (OpenTelemetry instrumentation)
 
 ### Tasks
@@ -787,13 +820,13 @@
 
 ## MILESTONE BETA: Full-Text Search Live
 
-**Due Date**: 2026-03-13
+**Due Date**: 2026-04-03
 
 ### 📦 Deliverables
 
-- Elasticsearch integration (indexing pipeline + relevance scoring)
-- SearchPosts Query (CQRS + pagination)
-- Search UI (MudAutocomplete + debounced suggestions)
+- Full-text search functionality powered by Elasticsearch.
+- A search API with advanced filtering and fuzzy matching capabilities.
+- A responsive Blazor UI with debounced, real-time search suggestions.
 - Advanced filters (date/author/community + Soundex fuzzy matching)
 
 ### Tasks
@@ -850,16 +883,14 @@
 
 ## MILESTONE 9: Moderation Tools
 
-**Due Date**: 2026-03-27
+**Due Date**: 2026-04-17
 
 ### 📦 Deliverables
 
-- **Ethical Humor Lab: community space for co-creating inclusive, intelligent humor**
-- Implement local learning of user humor style (no data leaves device)
-- Build collaborative humor tools and moderation
-- Admin Moderation UI (Angular MatTable + bulk ops)
-- Admin Search Dashboard (MatPaginator + CSV export)
-- Pending Posts Queue UI (ghost posts)
+- A dedicated Angular application for administrators.
+- A moderation dashboard for reviewing and acting on reported content.
+- An integrated email notification system for moderation actions.
+- **Internationalization (i18n) support for both Blazor and Angular UIs.**
 - SendGrid email integration (moderation notifications)
 
 ### Tasks
@@ -894,6 +925,14 @@
   - Moderation event consumer
   - Tests (mock SendGrid)
 
+- **Task 9.5: Internationalization (i18n) Framework** (15 SP)
+  - Set up `.resx` resource files for the Blazor WASM application.
+  - Implement a language selector component (`LanguageSelector.razor`).
+  - Configure the Angular i18n framework (`ng-extract-i18n`).
+  - Provide initial translation files (e.g., `messages.fr.xlf`) for both apps.
+  - Create unit tests to verify that language switching works correctly.
+  - Document the process for adding new languages.
+
 ### ✅ Success Criteria
 
 - Reports list functional
@@ -903,19 +942,21 @@
 - Pending posts visible only to author and mods
 - Emails sent on decisions
 - HTML templates correct
+- UI can be switched between at least two languages (e.g., English and French).
+- Adding a new language is a documented and straightforward process.
 
-**⏱️ Estimated effort**: 24h (AI 14h + integration 10h)
+**⏱️ Estimated effort**: 30h (AI 18h + integration 12h)
 
 ---
 
 ## MILESTONE 10: Consistent Brand Across UIs
 
-**Due Date**: 2026-04-10
+**Due Date**: 2026-05-01
 
 ### 📦 Deliverables
 
-- Unified SCSS/Tailwind theme (colors + typography)
-- Component library documentation (catalog + usage examples)
+- A unified design system and theme applied across the Blazor and Angular UIs.
+- A documented component library and a successful mobile responsiveness audit.
 - Mobile responsiveness audit (320px/768px/1024px breakpoints)
 
 ### Tasks
@@ -960,11 +1001,13 @@
 
 ## MILESTONE 11: Automated Content Moderation
 
-**Due Date**: 2026-04-24
+**Due Date**: 2026-05-15
 
 ### 📦 Deliverables
 
-- Custom AI Service (Python FastAPI + scikit-learn/PyTorch + Redis queue + Hugging Face fallback)
+- An AI-powered content moderation service using a Python/FastAPI worker.
+- A monitoring dashboard for AI model performance and confidence scores.
+- A browser-based "Local AI" worker for privacy-preserving tasks like summarization.
 - AI Model Monitoring (confidence tracking + retraining triggers + OTEL metrics)
 - AI Moderation UI (confidence % display + appeal workflow)
 
@@ -1014,12 +1057,12 @@
 
 ## MILESTONE 12: Karma & Progression Visible
 
-**Due Date**: 2026-05-08
+**Due Date**: 2026-05-29
 
 ### 📦 Deliverables
 
-- Gamification Karma System (CQRS + event-driven + decay rules)
-- Badges & Levels UI (MudBadge + progression bars)
+- A contextual reputation system where karma and progression are scoped per-community.
+- An event-driven system for calculating karma based on user actions.
 - User Profile UI (karma/level/badges + activity breakdown)
 - **Contextual reputation: per-community, constructive, no global vanity metrics**
 
@@ -1068,12 +1111,12 @@
 
 ## MILESTONE 13: User Alerts System
 
-**Due Date**: 2026-05-22
+**Due Date**: 2026-06-12
 
 ### 📦 Deliverables
 
-- **Smart Disconnect Mode: suggest breaks for digital well-being based on cognitive fatigue detection**
-- Implement cognitive fatigue detection and break suggestion logic
+- A complete user notification system with real-time alerts and preferences.
+- A "Digital Wellbeing" feature that suggests breaks based on activity.
 - Notifications Service (CQRS polling + EF Core event store)
 - Notifications UI (MudSnackbar + notification center + preferences)
 - Discord Webhooks (post events → community channels + opt-in)
@@ -1117,12 +1160,12 @@
 
 ## MILESTONE 14: Premium Features Ready
 
-**Due Date**: 2026-06-05
+**Due Date**: 2026-06-26
 
 ### 📦 Deliverables
 
-- **Community governance: collective rule/algorithm decisions, elected moderators**
-- Implement voting system for community rules and moderator elections
+- A user-configurable "Transparent Feed" with UI controls for ranking logic.
+- A graph-based recommendation engine using Neo4j.
 - Neo4j Recommendations (user→user/post→post graph + recommendation queries)
 - Keycloak Premium Claims (feature gates for advanced search/no ads)
 - k6 Scale Tests (100 concurrent users)
@@ -1165,12 +1208,12 @@
 
 ## MILESTONE V1.0: Full System Visibility
 
-**Due Date**: 2026-06-19
+**Due Date**: 2026-07-10
 
 ### 📦 Deliverables
 
-- Prometheus + Grafana Stack (OTEL metrics: queue depth/latency/errors/cache hits)
-- Alert Rules & Runbooks (SLA violations: response time >500ms/error rate >1%)
+- A production-grade observability stack (Prometheus, Grafana, ELK).
+- Pre-configured alert rules and runbooks for critical SLA violations.
 - Logging Aggregation (ELK: search + retention policies)
 
 ### Tasks
@@ -1211,12 +1254,12 @@
 
 ## MILESTONE 15: Production-Ready Deployment
 
-**Due Date**: 2026-07-03
+**Due Date**: 2026-07-24
 
 ### 📦 Deliverables
 
-- Kubernetes Cluster Setup (Helm charts for all services: .NET/Python/PostgreSQL/Redis/RabbitMQ + local KinD testing)
-- Hangfire Background Jobs (cleanup tasks + notification batches + cache invalidation)
+- A complete set of Helm charts for deploying all services to Kubernetes.
+- A background job processing system using Hangfire for cleanup and batch tasks.
 - Auto-Scaling Policies (HPA rules + CPU/memory limits + load testing)
 - Database Sharding Plan (horizontal scaling design doc)
 
@@ -1263,12 +1306,12 @@
 
 ## MILESTONE 16: Data Privacy Complete (GDPR)
 
-**Due Date**: 2026-07-17
+**Due Date**: 2026-08-07
 
 ### 📦 Deliverables
 
-- GDPR Export Module (QuestPDF: JSON + PDF for posts/karma/settings)
-- Export UI (MudBlazor: download management + email delivery)
+- A GDPR-compliant module for users to export all their data in JSON and PDF formats.
+- A fully tested process for complete user data deletion and anonymization.
 - GDPR Full Deletion (anonymization + soft-delete cascade validation)
 - Privacy Policy & Consent (cookie banner + opt-in tracking preferences)
 
@@ -1315,12 +1358,11 @@
 
 ## MILESTONE 17: Monetization Live
 
-**Due Date**: 2026-07-31
+**Due Date**: 2026-08-21
 
 ### 📦 Deliverables
 
-- **Contribution-based monetization: reward quality and time spent, not views or attention capture**
-- Implement monetization logic based on user contribution and engagement quality
+- A complete monetization system using Stripe for premium subscriptions.
 - Stripe Integration (webhook handler + subscription management + billing portal)
 - Google OAuth (multi-provider auth: Discord + Google)
 - Premium Feature UI (upgrade prompts + pricing table + subscription status)
@@ -1368,11 +1410,11 @@
 
 ## MILESTONE 18: Security Audit Complete
 
-**Due Date**: 2026-08-14
+**Due Date**: 2026-09-04
 
 ### 📦 Deliverables
 
-- Security Testing (OWASP Top 10: SQLi/XSS/CSRF test cases)
+- A comprehensive security audit report confirming mitigation of OWASP Top 10 vulnerabilities.
 - Secrets Management (env vars + rotation policy + audit logging)
 - Rate Limit Tuning (DDoS protection + endpoint-specific limits + bypass tokens)
 
@@ -1412,11 +1454,11 @@
 
 ## MILESTONE PRODUCTION: Ready for Production
 
-**Due Date**: 2026-08-28
+**Due Date**: 2026-09-18
 
 ### 📦 Deliverables
 
-- OpenAPI/Swagger Documentation (full API docs + endpoint examples + auth flow diagrams + error codes)
+- Complete and finalized API documentation, deployment guides, and architectural records.
 - Deployment Guides (local docker-compose + staging KinD + production Kubernetes step-by-step)
 - Architecture & ADR Finalization (all decisions + trade-offs from 52 weeks documented)
 - Launch Checklist & Go-Live (staging validation + production smoke tests + monitoring setup + incident response readiness)
@@ -1442,7 +1484,7 @@
 - **Task PRODUCTION.3: Architecture & ADR Finalization** (8 SP)
 
   - All decisions documented
-  - Trade-offs from 38 weeks
+  - Trade-offs from 44 weeks
   - Final review
   - Documentation
 
@@ -1469,16 +1511,16 @@
 
 ## Summary
 
-**Total Duration**: 38 weeks (November 7, 2025 → September 11, 2026)  
+**Total Duration**: 44 weeks (November 15, 2025 → September 18, 2026)
 **Total Effort**: ~500 hours (AI: ~300h + Integration: ~200h)  
-**Major Launches**: ALPHA (Jan 16), BETA (Mar 27), V1.0 (Jul 3), PRODUCTION (Sep 11)
+**Major Launches**: ALPHA (Jan 23, 2026), BETA (Apr 3, 2026), V1.0 (Jul 10, 2026), PRODUCTION (Sep 18, 2026)
 
 ### Key Metrics
 
 - **Latency**: <150ms P95
 - **Test Coverage**: >80%
 - **AI Accuracy**: >90% clean posts
-- **User Engagement**: >20 karma/week/user
+- **User Engagement**: >20 karma/week/user (in enabled communities)
 
 ### Technology Stack
 
@@ -1488,4 +1530,4 @@
 - **AI**: Python FastAPI, scikit-learn, PyTorch, Hugging Face
 - **Observability**: OpenTelemetry, Prometheus, Grafana
 
-This roadmap provides a comprehensive 38-week development plan with clear milestones, deliverables, and success criteria for building a modern, scalable forum platform.
+This roadmap provides a comprehensive 44-week development plan with clear milestones, deliverables, and success criteria for building a modern, scalable social platform.
