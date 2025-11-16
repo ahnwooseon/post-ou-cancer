@@ -155,7 +155,7 @@
 
 ### Tasks
 
-- **Task 0.1: Architecture Decision Records** (8 SP)
+- ✅ **Task 0.1: Architecture Decision Records** (8 SP)
 
   - Create `/docs/adr/` folder structure
   - ADR-001: .NET 10 choice and justification
