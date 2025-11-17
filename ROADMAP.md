@@ -168,7 +168,7 @@
   - ADR-008: Deployment strategy (Docker Compose → k3s → Kubernetes)
   - Document trade-offs and alternatives considered
 
-- **Task 0.2: Security & Compliance Baseline** (7 SP)
+- ✅ **Task 0.2: Security & Compliance Baseline** (7 SP)
   - Create OWASP Top 10 checklist
   - Document GDPR requirements (export, deletion, consent)
   - Define secrets management strategy
